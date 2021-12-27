@@ -1,5 +1,5 @@
 Este es el archivo README. 
-Se ha subido el proyecto a github. Aquí se encuentra todas las carpetas, archivos y backup de la base de datos del proyecto final del curso de PW2 sobre administrar productos de una tienda de electrodomésticos. 
+Se ha subido el proyecto a github. Aquí se encuentran todas las carpetas, archivos y backup de la base de datos del proyecto final del curso de PW2 sobre administrar productos de una tienda de electrodomésticos. 
 
 # CakePHP Application Skeleton
 
