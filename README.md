@@ -1,3 +1,6 @@
+Este es el archivo README. 
+Se ha subido el proyecto a github. Aquí se encuentra todas las carpetas y archivos del proyecto final del curso de PW2 sobre administrar productos de una tienda de electrodomésticos. 
+
 # CakePHP Application Skeleton
 
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
