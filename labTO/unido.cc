@@ -22,15 +22,15 @@ class ArrayStack : public Stack<T>{
         ~ArrayStack(){delete[] data;}
         void push(T);
         void pop();
-        void print();
         T top();
         bool empty(); 
+	void print();
+
 };
 template <typename T>
 void ArrayStack<T>::push(T e){
     int numElem = sp - data;
-    //cout<<numElem;
-    if(size == numElem) //assert(size==numElem)
+    if(size == numElem) //assert(size==numElem)  si es que no hubiera el método resize.
         resize();
     *sp = e;
     sp++;
@@ -59,7 +59,7 @@ T ArrayStack<T>::top(){
 }
 template<typename T>
 bool ArrayStack<T>::empty(){
-    //assert(sp >= data);
+    assert(sp >= data);
     return sp == data;     
 
 }
